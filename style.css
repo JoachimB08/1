@@ -3,7 +3,7 @@ body {
   background-image: url(galaxy.jpg);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 100% 20.1%;
+  background-size: 100% 15.6%;
 }
 
 .dark-mode {
@@ -40,7 +40,7 @@ body {
 
 .text-top {
   font-style: italic;
-  font-size: 50px;
+  font-size: xx-large;
   text-align: center;
   color: #ff73ea;
 }
