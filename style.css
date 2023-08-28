@@ -1,0 +1,125 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dark-mode {
+  background-color: black;
+  color: #ffffff;
+  .legals {
+    color: #ffffff;
+  }
+  .list-1 {
+    color: #ffffff;
+  }
+  .text-top {
+    color: #ffffff;
+  }
+  .text-middle {
+    color: #ffffff;
+  }
+  .text-bottom {
+    color: #ffffff;
+  }
+  .text-sign {
+    color: #ffffff;
+  }
+  .hr-2 {
+    border: 10px solid white;
+  }
+}
+
+.legals {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-small;
+  margin-top: 0%;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 0%;
+}
+
+.text-top {
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+.hr-2 {
+  border: 10px solid black;
+  margin: 5%;
+}
+
+.about-me {
+  display: flex;
+  font-size: 34px;
+}
+.list-info {
+  margin-bottom: 30px;
+}
+
+.joachim-jpg {
+  width: 30%;
+  display: flex;
+  margin-left: 18%;
+}
+
+.text-box {
+  border: 5px solid black;
+  margin-left: 42%;
+  margin-right: 50%;
+  margin-bottom: 1%;
+  width: 15%;
+  margin-top: 2%;
+  border-radius: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.button-2 {
+  position: relative;
+  font-weight: lighter;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.dexter-jpg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.text-middle {
+  color: #000000;
+  text-align: center;
+}
+.text-bottom {
+  color: #000000;
+  text-align: center;
+}
+
+.text-sign {
+  text-align: center;
+  font-size: x-large;
+  border-radius: 10px;
+}
+
+.button-1 {
+  margin-left: 10px;
+  font-size: x-large;
+  font-weight: lighter;
+  border-radius: 10px;
+}
+
+.bot-txt {
+  display: flex;
+  justify-content: center;
+}
