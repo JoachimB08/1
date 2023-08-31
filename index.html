@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
     <div>
-      <script class="button-1">
+      <script class="button-2">
         function fun() {
           alert("Thank you for subscribing!");
         }
@@ -20,47 +22,69 @@
       <title>About me!</title>
     </div>
   </head>
-  <body>
-    <div class="legals">
-      <p>Made by Joachim Abelsen</p>
-      <button
-        class="button-2"
-        onclick="myfunction()"
-      >
-        Dark mode
-      </button>
-    </div>
-    <div id="graphics"></div>
-    <div class="text-top">
-      <h1>Welcome!</h1>
-      <h2>My name is joachim Abelsen,</h2>
-      <hr class="hr-2" />
-    </div>
-       <div class="about-me">
-        <img
-          class="joachim-jpg"
-          src="Joachim.jpg"
-        />
-        <ul class="list-info">
-          <li>I am 23 years old</li>
-          <li>I live in Bergen, Norway</li>
-          <li>I'am a student at kodehode</li>
-        </ul>
+<body>
+    <div class="container-top">
+        <div class="legals">
+          <p>Made by Joachim Abelsen</p>
+        </div>
+        <div class="text-top">
+          <div>
+         <h1>Welcome!</h1>
+          <h2>My name is joachim Abelsen.</h2>      
+          </div>      
+        </div>
+        <div class="button-1">
+          <button class="btn-1" onclick="myfunction()">Dark mode</button>
+        </div>
       </div>
-        <div class="text-middle">
-            <hr class="hr-2">
-            <h1>This is my cat Dexter 😍</h1>
-            <h2>
-              He's 2 years old and loves to cuddle
-              with his owner (me)
-            </h2>
+      <hr class="hr-2">
+    </div>
+        <div class="container-mid">
+          <div class="joachim-jpg">
+           <img
+            class="joachim-jpg"
+            src="Joachim.jpg"
+           />
+            </div class="joachim-div">
+            <div class="text-img">
+              <div class="li-ab">
+                <h2>About me:</h2>
+              </div>
+              <ul>
+                <li>I am 23 years old.</li>
+                <li>I live in Bergen, Norway.</li>
+                <li>I am currently engaged.</li>
+                <li>I am a student at kodehode.</li>
+                <li>My favorite food is apple pie.</li>
+                <li>My favorite game is Fallout.</li>
+                <li>And my favorite animal is cat.</li>
+              </ul>
+              <p>Here are some links to my social media.</p>
+                <div class="text-links">
+                  <a href="https://github.com/JoachimB08">Github</a> 
+                  <a href="https://github.com/JoachimB08">Youtube</a>   
+                  <a href="https://www.linkedin.com/in/joachim-abelsen-019ba628a/">LinkedIn</a>                 
+                </div>
+            </div>
           </div>
-          <div class="dexter-jpg">
-            <img
-              class="dexter-jpg"
-              src="dexter.jpg"
-            />
-          </div>
+        </div>
+        <hr class="hr-2">
+            <div class="container-bot">
+              <div class="mid-txt">
+                <h1 class="mid-txt-h1">This is my cat Dexter 😍</h1>
+                <h2>
+                He's 2 years old and loves to cuddle
+                with his owner (me)
+                </h2>
+              </div>
+              <div class="image-box">
+                  <img
+                  class="dexter-jpg"
+                  src="dexter.jpg"
+                />
+              </div>
+            </div>
+        </div>
           <hr class="hr-2">
           <div class="text-sign">
             <h1>Subscribe to my newsletter!</h1>
@@ -72,7 +96,7 @@
               placeholder="john.doe@example.com"
             />
             <button
-              class="button-1"
+              class="button-2"
               onclick="fun()"
               >Sign Up.</button>
           </div>
